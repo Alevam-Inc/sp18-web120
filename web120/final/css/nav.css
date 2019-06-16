@@ -1,0 +1,84 @@
+nav.primary {
+    line-height: 30px;
+    background: rgb(0, 26, 99);
+    clear: both;
+    text-align: center;
+}
+
+nav.primary ul {
+    margin: 0 auto;
+}
+nav.primary li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+    display: inline;
+    
+}
+nav.primary a {
+    text-decoration: none;
+    color: rgb(199, 234, 255);
+    display: block;
+    display: inline-block;
+    padding: 0 20px;
+}
+nav.primary a:hover{
+    background: cornflowerblue;
+    color: rgb(0, 26, 99);
+    
+}
+
+.home nav.primary li:nth-child(1) a,
+.about nav.primary li:nth-child(2) a,
+.services nav.primary li:nth-child(3) a,
+.scheduling nav.primary li:nth-child(4) a,
+.contact nav.primary li:nth-child(5) a {
+    background: cornflowerblue;
+    color: rgb(0, 26, 99);
+    font-weight: 800;
+}
+nav.secondary ul {
+    width: 100%;
+    overflow: hidden;
+    width: 84%;
+    display: block;
+    margin: 0 auto;
+  
+}
+nav.secondary li {
+    background: rgb(0, 26, 99);
+    height: 40px;
+    line-height: 40px;
+    list-style-type:none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav.secondary li a {
+   color:#fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+nav.secondary a:hover{
+    background: cornflowerblue;
+    color: rgb(0, 26, 99);
+}
+.works nav.secondary li:nth-child(3) a {
+    background: rgb(0, 26, 99);
+    color: white;
+}
+.works nav.secondary li:nth-child(3) a:hover {
+    background: cornflowerblue;
+    color: rgb(0, 26, 99);
+}
+
+.logos nav.secondary li:nth-child(1) a,
+.posters nav.secondary li:nth-child(2) a,
+.sketches nav.secondary li:nth-child(3) a {
+    background: cornflowerblue;
+    color: rgb(0, 26, 99);
+}
+@media screen and (max-width:680px) {
+    
+}
